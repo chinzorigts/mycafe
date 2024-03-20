@@ -2,4 +2,145 @@
     background-color: #bb0ebb;
     padding: 20px 0;
     text-align: center; /* Center align text */
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
+
+.header{
+    background-color: #bb0ebb;
+}
+
+.nav-header{
+    padding : 0.75rem;
+    height: 80px;
+    background-color: #f2c58f;
+}
+
+.color-yellow{
+    color: #f2c58f;
+}
+
+.logo-text{
+    color: black;
+    font-size: x-large;
+    margin-left: 1rem;
+}
+
+.circular-image{
+    border-radius: 50%; 
+    width: 48px; 
+    height: 48px; 
+}
+
+.navbar-left{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-right{
+    display: flex;
+    align-items: center;
+}
+
+.menu-btn{
+    color : #FFF;
+    font-size: 15px;
+    font-weight: 700;
+    margin-right: 20px;
+}
+
+A:link{
+    text-decoration: none;
+    color: inherit;
+    background: inherit;
+}
+
+.no-decoration{
+    text-decoration: none;
+    color: #FFF;
+    background: inherit;
+}
+
+.mr-20{
+    margin-right: 20px;
+}
+
+.ml-20{
+    margin-left: 20px;
+}
+
+.navbar-toggle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    min-height: 70px;
+    font-size: 18px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.navbar-toggle-btn{
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #F8F8F8;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+.footer-container{
+    padding:30px;
+    text-align: center;
+    font-size: 15px;
+    color: #AAA;
+    background: #f2c58f;
+}
+
+.main-container{
+    height: 600px;
+}
+
+.border-t {
+    border-top-width: 1px;
+}
+
+.text-pink{
+    color :  #f07579;
+}
+
+.text-red{
+    color :  #ce3536;
+}
+
+.text-white{
+    color : #FFF;
+}
+
+.border-gray-900{
+    border-color:  rgb(17 24 39 / 0.1);
+}
+
+.circular-button {
+    width: 48px; 
+    height: 48px;
+    border-radius: 50%; 
+    background-color: #fff; 
+    color: #fff; 
+    font-size: 16px; 
+    border: none; 
+    cursor: pointer; 
+}
+
+.dropdown-item {
+    font-size: 14px;
+    color: #000;
+}
+
