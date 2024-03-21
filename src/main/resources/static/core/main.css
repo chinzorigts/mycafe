@@ -1,3 +1,14 @@
+* { 
+    font-family: GangwonEdu_OTFBoldA;
+}
+
+@font-face {
+    font-family: "GangwonEdu_OTFBoldA";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
 .info_container {
     max-width: 1000px;
     padding: 70px 10px;
@@ -26,11 +37,29 @@ main {
 }
 
 footer {
+    display: flex;
+    justify-content: center;
     padding: 30px;
     text-align: center;
     font-size: 15px;
     color: #aaa;
     background: #f2c58f;
+}
+
+.footer-container {
+    width: 100%;
+    max-width: 1000px;
+    padding: 30px;
+    text-align: center;
+    font-size: 15px;
+    color: #aaa;
+    background: #f2c58f;
+}
+
+A:link {
+    text-decoration: none;
+    color: inherit;
+    background: inherit;
 }
 
 .paragraph-container {
@@ -39,4 +68,124 @@ footer {
 
 .paragraph-container p {
     margin: 0.3em 0 !important;
+}
+
+.sb-rule{
+    color: #fff;
+}
+
+.circular-image {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+
+.nav-header {
+    padding: 0.75rem;
+    height: 100px;
+    background-color: #f2c58f;
+}
+
+.color-yellow {
+    color: #f2c58f;
+}
+
+.logo-text {
+    color: black;
+    margin-left: 1rem;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.menu-btn {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    margin-right: 20px;
+}
+
+.navbar-toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    min-height: 70px;
+    font-size: 18px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.navbar-toggle-btn {
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #f8f8f8;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.border-gray-900 {
+    border-color: rgb(17 24 39 / 0.1);
+}
+
+.circular-button {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-item {
+    font-size: 14px;
+    color: #000;
+}
+
+.no-decoration {
+    text-decoration: none;
+    color: #fff;
+    background: inherit;
+}
+
+.border-t {
+    border-top-width: 1px;
+}
+
+.text-pink {
+    color: #f07579;
+}
+
+.text-red {
+    color: #ce3536;
+}
+
+.text-white {
+    color: #fff;
 }
