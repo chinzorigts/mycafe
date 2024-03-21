@@ -48,3 +48,7 @@ signupBtn.onclick = function () {
     btnField.style.top = "85%";
     toggleSnsContainer();
 };
+
+function hi() {
+    console.log("CALLCED HI FUNCTION");
+}
