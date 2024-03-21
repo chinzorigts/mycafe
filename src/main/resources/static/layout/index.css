@@ -8,70 +8,70 @@
     left: 0;
 }
 
-.header{
+.header {
     background-color: #bb0ebb;
 }
 
-.nav-header{
-    padding : 0.75rem;
+.nav-header {
+    padding: 0.75rem;
     height: 80px;
     background-color: #f2c58f;
 }
 
-.color-yellow{
+.color-yellow {
     color: #f2c58f;
 }
 
-.logo-text{
+.logo-text {
     color: black;
     font-size: x-large;
     margin-left: 1rem;
 }
 
-.circular-image{
-    border-radius: 50%; 
-    width: 48px; 
-    height: 48px; 
+.circular-image {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
 }
 
-.navbar-left{
+.navbar-left {
     display: flex;
     align-items: center;
 }
 
-.navbar-right{
+.navbar-right {
     display: flex;
     align-items: center;
 }
 
-.menu-btn{
-    color : #FFF;
+.menu-btn {
+    color: #fff;
     font-size: 15px;
     font-weight: 700;
     margin-right: 20px;
 }
 
-A:link{
+A:link {
     text-decoration: none;
     color: inherit;
     background: inherit;
 }
 
-.no-decoration{
+.no-decoration {
     text-decoration: none;
-    color: #FFF;
+    color: #fff;
     background: inherit;
 }
 
-.mr-20{
+.mr-20 {
     margin-right: 20px;
 }
 
-.ml-20{
+.ml-20 {
     margin-left: 20px;
 }
 
-.navbar-toggle{
+.navbar-toggle {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,10 +82,10 @@ A:link{
     margin-right: 20px;
 }
 
-.navbar-toggle-btn{
+.navbar-toggle-btn {
     font-size: 15px;
     font-weight: 500;
-    background-color: #F8F8F8;
+    background-color: #f8f8f8;
     height: 50px;
     width: 50px;
     display: flex;
@@ -93,54 +93,54 @@ A:link{
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    
 }
 
-.footer-container{
-    padding:30px;
+.main-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.footer-container {
+    padding: 30px;
     text-align: center;
     font-size: 15px;
-    color: #AAA;
+    color: #aaa;
     background: #f2c58f;
-}
-
-.main-container{
-    height: 600px;
 }
 
 .border-t {
     border-top-width: 1px;
 }
 
-.text-pink{
-    color :  #f07579;
+.text-pink {
+    color: #f07579;
 }
 
-.text-red{
-    color :  #ce3536;
+.text-red {
+    color: #ce3536;
 }
 
-.text-white{
-    color : #FFF;
+.text-white {
+    color: #fff;
 }
 
-.border-gray-900{
-    border-color:  rgb(17 24 39 / 0.1);
+.border-gray-900 {
+    border-color: rgb(17 24 39 / 0.1);
 }
 
 .circular-button {
-    width: 48px; 
+    width: 48px;
     height: 48px;
-    border-radius: 50%; 
-    background-color: #fff; 
-    color: #fff; 
-    font-size: 16px; 
-    border: none; 
-    cursor: pointer; 
+    border-radius: 50%;
+    background-color: #fff;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
 }
 
 .dropdown-item {
     font-size: 14px;
     color: #000;
 }
-
