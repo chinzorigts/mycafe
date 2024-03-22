@@ -1,4 +1,4 @@
-* { 
+* {
     font-family: GangwonEdu_OTFBoldA;
 }
 
@@ -42,7 +42,7 @@ footer {
     padding: 30px;
     text-align: center;
     font-size: 15px;
-    color: #aaa;
+    color: #fff;
     background: #f2c58f;
 }
 
@@ -52,7 +52,6 @@ footer {
     padding: 30px;
     text-align: center;
     font-size: 15px;
-    color: #aaa;
     background: #f2c58f;
 }
 
@@ -70,7 +69,7 @@ A:link {
     margin: 0.3em 0 !important;
 }
 
-.sb-rule{
+.sb-rule {
     color: #fff;
 }
 
