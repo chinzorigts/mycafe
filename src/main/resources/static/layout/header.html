@@ -6,38 +6,30 @@
         <link rel="stylesheet" href="../core/main.css" />
         <script src="https://kit.fontawesome.com/35c503f1b7.js" crossorigin="anonymous"></script>
     </head>
-    <!-- Хуудасны толгой хэсэг -->        
+    <!-- Page header section -->
     <header class="navbar navbar-expand-lg nav-header sticky-top color-yellow shadow-sm">
-        <nav class="d-flex w-100 justify-content-between ps-3">
+        <nav class="d-flex w-100 justify-content-between ps-3" role="navigation">
             <div class="navbar-left">
                 <a class="navbar-brand d-flex align-items-center" href="../layout/layout.html">
-                    <img
-                        src="../images/cafe_logo2.png"
-                        width="50"
-                        height="50"
-                        alt="Logo"
-                        class="d-inline-block align-text-top circular-image"
-                    />
                     <label class="logo-text text-red fs-3">카페로</label>
                 </a>
             </div>
-            <div class="navbar-right">
-                <div class="menu-btn mr-20">
+            <div class="navbar-right d-flex justify-content-between">
+                <div class="menu-btn">
                     <a class="text-white fs-4" href="../login/login.html">로그인</a>
                 </div>
-                <div class="menu-btn">
-                    <div class="dropdown">
-                        <button class="circular-button" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-items">
-                            <li><a class="dropdown-item" href="#">인터뷰</a></li>
-                            <li><a class="dropdown-item" href="#">카페 등록요청</a></li>
-                            <li><a class="dropdown-item" href="#">문의사항</a></li>
-                            <li><hr class="dropdown-divider" /></li>
-                            <li><a class="dropdown-item" href="#">마이페이지</a></li>
-                        </ul>
-                    </div>
+                <div id="menuToggle">
+                    <input type="checkbox" />
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <ul id="menu">
+                        <a href="#"><li>지도에서 카페 찾기</li></a>
+                        <a href="#"><li>인터뷰</li></a>
+                        <a href="#"><li>카페 등록 요청</li></a>
+                        <a href="#"><li>문의 사항 qna</li></a>
+                        <a href="#"><li>마이페이지</li></a>
+                    </ul>
                 </div>
             </div>
         </nav>
